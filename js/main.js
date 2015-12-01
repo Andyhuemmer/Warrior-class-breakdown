@@ -31,7 +31,46 @@ $(document).ready(function(){
   }
  });
 
+  $('#humanButton').on('click', function(){
+  event.preventDefault();
+    $('#descriptionPic').css({
+    'background-image':'url(images/human.png)',
+    'background-repeat': 'no-repeat',
+    });
+  });
 
+  $('#granokButton').on('click', function(){
+  event.preventDefault();
+    $('#descriptionPic').css({
+    'background-image':'url(images/granok.png)',
+    'background-size': 'cover',
+    });
+  });
 
+  $('#mordeshButton').on('click', function(){
+  event.preventDefault();
+    $('#descriptionPic').css({
+    'background-image':'url(images/mains.png)',
+    'background-repeat': 'no-repeat',
+    });
+  });
+
+  $('#drakenButton').on('click', function(){
+  event.preventDefault();
+    $('#descriptionPic').css({
+    'background-image':'url(images/drakenDescription.png)',
+    'background-repeat': 'no-repeat',
+    'background-size': 'contain',
+    });
+  });
+
+  $('#mechariButton').on('click', function(){
+  event.preventDefault();
+    $('#descriptionPic').css({
+    'background-image':'url(images/mechari-description.png)',
+    'background-repeat': 'no-repeat',
+    'background-size': 'cover',
+    });
+  });
 
 

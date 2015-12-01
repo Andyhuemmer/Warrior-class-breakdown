@@ -21,19 +21,20 @@ header.warrior-box {
 }
 
 #logo {
-  width: 100%;
+  width: 614px;
+  height: 84px;
   background-image: url(../images/warrior-logo1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: initial;
   position:  absolute;
-  padding-top: 50%;
-  margin-left: 11%;
+  padding-top: 500px;
+  margin-left: 25%;
 }
 
 div.warrior-foreground {
-  width: 33%;
-  height: 97%;
+  width: 315px;
+  height: 492px;
   background-image: url(../images/Granok.png);
   background-repeat: no-repeat;
   background-size: inherit;
@@ -55,7 +56,7 @@ button {
 
 .description article {
   float: left;
-  width: 75%;
+  width: 70%;
 }
 
 .description h2 {
@@ -83,10 +84,12 @@ button {
 
 #descriptionPic {
   background-image: url(../images/human.png);
-  background-size: inherit;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 500px;
-  width: 515px;
-  margin-left: 58%;
+  width: 25%;
+  float: left;
+  padding-top: 1%;
 }
 
 .roles {
@@ -141,7 +144,7 @@ button {
 
 .media {
   background-image: url(../images/media-background.jpg);
-  height: 500px;
+  height: 550px;
   width: 100%;
   text-align: center;
   color: #f7f5d7;
@@ -173,8 +176,8 @@ div.column img.is-showing {
 
 .screenshots img {
   width: 100%;
-  height: 40%;
-  padding: 2% 10% 2% 10%;
+  height: 50%;
+  padding: 1% 10% 1% 10%;
 }
 
 .media .videos {
@@ -185,8 +188,8 @@ div.column img.is-showing {
 
 .videos img {
   width: 100%;
-  height: 40%;
-  padding: 2% 10% 2% 10%;
+  height: 50%;
+  padding: 1% 10% 1% 10%;
 }
 
 .media .wallpapers {
@@ -197,8 +200,8 @@ div.column img.is-showing {
 
 .wallpapers img {
   width: 100%;
-  height: 40%;
-  padding: 2% 10% 2% 10%;
+  height: 50%;
+  padding: 1% 10% 1% 10%;
 }
 
 footer {
@@ -225,3 +228,7 @@ footer p {
 
 /* ======== Picture Swap ======== */
 
+
+
+/* ========== MEDIA QUERY ========== */
+width 730px
