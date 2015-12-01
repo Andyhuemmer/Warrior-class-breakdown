@@ -1,6 +1,5 @@
 $(document).ready(function(){
   $('.warrior-carousel').slick({
-    slidesToShow: 1,
   });
 
 /* --------- PARALLAX -------- */

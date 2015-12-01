@@ -79,7 +79,7 @@ button {
 }
 
 .description button {
-  margin-left: 3%;
+  margin: 3%;
 }
 
 #descriptionPic {
@@ -93,15 +93,11 @@ button {
 }
 
 .roles {
-  height: 650px;
+  height: 575px;
   width: 100%;
-  background-color: #1f3447;
+  background-color: #65D9D4;
   color: #f7f5d7;
   text-align: center;
-}
-
-.roles button {
-  position: 
 }
 
 .roles h1 {
@@ -113,6 +109,7 @@ button {
 
 .roles .warrior-carousel {
   padding-top: 2%;
+  width: 100%;
 }
 
 .roles #beserker {
@@ -221,7 +218,7 @@ footer #fewd69 {
 footer p {
   margin: auto 0;
   display: inline-block;
-  padding-top: 2%;
+  padding-top: 3%;
   padding-left: 5%;
   color: #f7f5d7;
 }
